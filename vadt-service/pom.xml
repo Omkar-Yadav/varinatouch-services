@@ -13,7 +13,8 @@
 	<artifactId>vadt-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>vadt</name>
-	<description>a service that is used as a admin-tool service to for various operations related to varinatouch admin</description>
+	<description>a service that is used as a admin-tool service to for
+		various operations related to varinatouch admin</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<swagger.version>2.9.2</swagger.version>
@@ -33,6 +34,10 @@
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -60,10 +65,8 @@
 		</dependency>
 
 		<!-- security -->
-<!-- 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency> -->
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-security</artifactId> 
+			</dependency> -->
 
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>

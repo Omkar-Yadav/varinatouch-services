@@ -21,6 +21,7 @@
 		<module>authentication-service</module>
 		<module>config-service</module>
 		<module>naming-service</module>
+		<module>api-gateway</module>
 	</modules>
 	<build>
 		<finalName>${project.artifactId}</finalName>
